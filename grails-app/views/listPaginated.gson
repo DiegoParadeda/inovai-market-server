@@ -1,0 +1,15 @@
+import grails.converters.JSON
+import inovai.market.server.Instituicao
+
+model {
+    def resource
+    int total
+
+}
+
+json {
+    data(resource) { Instituicao res ->
+        nome res.nome
+    }
+    cu "oi"
+}
