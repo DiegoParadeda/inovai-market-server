@@ -1,0 +1,13 @@
+import inovai.market.server.Produto
+
+model {
+    Produto produto
+}
+
+json {
+    id produto.id
+    nome produto.nome
+    escopo produto.escopo
+    cidade produto.cidade
+    empresa produto.empresa.nome
+}

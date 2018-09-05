@@ -1,0 +1,11 @@
+import inovai.market.server.Produto
+
+model {
+    List<Produto> data
+    Integer total
+}
+
+json {
+    data tmpl.show(data)
+    total total
+}
