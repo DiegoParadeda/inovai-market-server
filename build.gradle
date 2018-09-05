@@ -9,6 +9,8 @@ buildscript {
         classpath "org.grails.plugins:views-gradle:1.1.6"
 //        GRAILS SPRING SECURITY
         compile 'org.grails.plugins:spring-security-core:3.2.0.M1'
+//        GRAILS SPRING SECURITY *REST*
+        compile "org.grails.plugins:spring-security-rest:2.0.0.RC1"
     }
 }
 
